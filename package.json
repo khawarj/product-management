@@ -1,14 +1,14 @@
 {
-  "name": "product management",
+  "name": "product-management",
   "version": "1.0.0",
   "description": "Product Management",
   "scripts": {
-    "prestart": "babel-node tools/startMessage.js",
+    "prestart": "babel-node server/startMessage.js",
     "start": "npm-run-all --parallel test:watch open:src lint:watch",
-    "open:src": "babel-node tools/srcServer.js",
-    "lint": "node_modules/.bin/esw webpack.config.* src tools",
+    "open:src": "babel-node server/srcServer.js",
+    "lint": "node_modules/.bin/esw webpack.config.* src server",
     "lint:watch": "npm run lint -- --watch",
-    "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.test.js\"",
+    "test": "mocha --reporter progress server/testSetup.js \"src/**/*.test.js\"",
     "test:watch": "npm run test -- --watch"
   },
   "author": "Khawar Jamil",
