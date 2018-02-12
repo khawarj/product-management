@@ -1,0 +1,16 @@
+[
+  {
+   "id": 1,
+    "productName": "claw hammer",
+    "productCode": "TDS102",
+    "description": "It hammers",
+    "rating": 3
+  },
+  {
+    "id": 2,
+    "productName": "nails",
+    "productCode": "TDS103",
+    "description": "pointy",
+    "rating": 4
+  }
+]
