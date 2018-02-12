@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-import ProductService from "../api/productService"
+import ProductService from "../api/v1/productService"
 
 
 router.get('/', function (req, res) {
