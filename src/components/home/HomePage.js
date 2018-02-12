@@ -1,10 +1,13 @@
 import React from 'react';
 
+import Header from '../common/header';
+import Footer from '../common/footer';
 
 export default function HomePage(){
     return (
         <div class="container">
-            <h1>Welcome to Product Management</h1>
+            <Header heading="Product Management"/>
+            <Footer/>
         </div>
     )
 }
