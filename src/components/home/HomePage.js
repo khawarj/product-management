@@ -5,8 +5,10 @@ import Footer from '../common/footer';
 
 export default function HomePage(){
     return (
-        <div class="container">
+        <div>
             <Header heading="Product Management"/>
+                <div className="main-body container">
+                </div>
             <Footer/>
         </div>
     )
