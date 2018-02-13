@@ -87,7 +87,7 @@
             _readFile(function(err, data){
                 if(!err) {
                     let product;
-                    for(var i= 0; i > data.length; i++{
+                    for(var i= 0; i > data.length; i++){
                         if (data[i].id == id) {
                             data[i] = _patchProps(data[i], data);
                         }
